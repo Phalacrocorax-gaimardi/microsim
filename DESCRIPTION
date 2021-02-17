@@ -1,0 +1,24 @@
+Package: microsim
+Title: CREATES SOCIAL INFLUENCE NETWORK
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Joe",
+           family = "Wheatley",
+           role = c("aut", "cre"),
+           email = "joe.wheatley@ucd.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    cluster,
+    tidyr,
+    tidygraph,
+    magrittr,
+    stats
+Depends: 
+    R (>= 2.10)
